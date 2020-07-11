@@ -65,7 +65,8 @@ if ($letterHead==0) {
 
 //Write PDF
 $mpdf->WriteHTML($data);
-$mpdf->Image('\logo.png', -5, 0, 120, 30, 'jpg', '', true, false);
+//$mpdf->Image('\smit_logo.png', -5, 0, 120, 30, 'jpg', '', true, false);
+$mpdf->Image('\logo.png', -5, 0, 100, 30, 'jpg', '', true, false);
 $mpdf->Image('\line.png', -30, 10.8, 280, 40, 'jpg', '', true, false);
 $mpdf->Image('\line.png', -30, 267, 280, 40, 'jpg', '', true, false);
 
